@@ -20,12 +20,12 @@ logWhisper('HELLO')
 function sayHiToGrandma(string) {
   return string.toLowerCase();
 }
-sayHiToGrandma('hello')
+sayHiToGrandma('I can\'t hear you')
 
 function sayHiToGrandma(string) {
   return string.toUpperCase();
 }
-sayHiToGrandma('hello')
+sayHiToGrandma('yes indeed')
 
 function sayHiToGrandma(string) {
   return 'I love you, too.';
