@@ -20,6 +20,7 @@ logWhisper('HELLO')
 function sayHiToGrandma(string) {
   return string.toLowerCase();
 }
+sayHiToGrandma('hello')
 
 function sayHiToGrandma(string) {
   return string.toUpperCase();
