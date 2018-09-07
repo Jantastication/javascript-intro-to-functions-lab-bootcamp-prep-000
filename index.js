@@ -18,14 +18,14 @@ function logWhisper(string) {
 logWhisper('HELLO')
 
 function sayHiToGrandma(string) {
-  return string.toLowerCase()
+  return string.toLowerCase();
 }
 
 function sayHiToGrandma(string) {
-  return string.toUpperCase()
+  return string.toUpperCase();
 }
 
 function sayHiToGrandma(string) {
-  return 'I love you, too.'
+  return 'I love you, too.';
 }
 sayHiToGrandma('I love you, Grandma.')
