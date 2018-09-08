@@ -18,16 +18,12 @@ function logWhisper(string) {
 logWhisper('HELLO')
 
 function sayHiToGrandma(string) {
-  return string.toLowerCase()
+  if (string.toLowerCase())
+  return "I can\'t hear you!";
+} else if (string.toLowerCase())===string {
+  return "YES INDEED!";
+} else if (string === "I love you, Grandma.")) {
+  return "I love you, too.";
 }
-sayHiToGrandma('hello')
+};
 
-function sayHiToGrandma(string) {
-  return string.toUpperCase()
-}
-sayHiToGrandma('YES INDEED!')
-
-function sayHiToGrandma(string) {
-  return 'I love you, too.';
-}
-sayHiToGrandma('I love you, Grandma.')
